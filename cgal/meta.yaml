@@ -1,0 +1,29 @@
+package:
+  name: cgal
+  version: "4.3"
+
+source:
+  fn: CGAL-4.3.tar.bz2
+  url: https://gforge.inria.fr/frs/download.php/file/32997/CGAL-4.3.tar.bz2
+  sha256: a255361b9edc85b468a0a6d2de429314923698166429e77ad5ce08d628905ca4
+
+build:
+  number: 0
+  detect_binary_files_with_prefix: True
+
+requirements:
+  build:
+    - gmp
+    - mpfr
+    - zlib
+    - boost 1.57.0
+  run:
+    - gmp
+    - mpfr
+    - zlib
+    - boost 1.57.0
+
+about:
+  home: http://www.cgal.org
+  summary: 'The Computational Geometry Algorithms Library'
+  license: GPLv3
