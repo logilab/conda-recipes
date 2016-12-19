@@ -16,14 +16,15 @@ requirements:
     - gmp
     - mpfr
     - zlib
-    - boost 1.57.0
+    - boost <1.52
   run:
     - gmp
     - mpfr
     - zlib
-    - boost 1.57.0
+    - boost <1.52
 
 about:
   home: http://www.cgal.org
   summary: 'The Computational Geometry Algorithms Library'
   license: GPLv3
+
